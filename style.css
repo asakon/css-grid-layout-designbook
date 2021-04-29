@@ -17,7 +17,7 @@ body	{margin: 0;
 
 .page-nav,
 .page-btn-close {
-	/*display: none;*/
+	display: none;
 }
 
 /* グリッド */
@@ -50,6 +50,10 @@ body	{margin: 0;
 	grid-row: 2;
 	z-index: 100;
 	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.open .page-nav {
+	display: block;
 }
 
 .page-nav ul {
@@ -86,6 +90,13 @@ body	{margin: 0;
 	display: none;
 }
 
+.open .page-btn {
+	display: none;
+}
+
+.open .page-btn-close {
+	display: block;
+}
 
 
 /* フッター */
