@@ -56,7 +56,19 @@ body	{margin: 0;
 	grid-row: 1;
 	justify-self: start;
 	align-self: center;
+	padding: 20px;
+	border: none;
+	background-color: transparent;
+	color: #fff;
+	font-size: 28px;
+	cursor: pointer;
 }
+
+.page-btn-close {
+	display: none;
+}
+
+
 
 /* フッター */
 .page-foot {
