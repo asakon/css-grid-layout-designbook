@@ -31,11 +31,11 @@
 </nav>
 
 
-<button type="button" class="page-btn">
+<button type="button" class="page-btn" onClick="myFunc()">
 	<span class="fas fa-bars" title="メニューを開く"></span>
 </button>
 	
-<button type="button" class="page-btn-close">
+<button type="button" class="page-btn-close" onClick="myFunc()">
 	<span class="fas fa-times" title="メニューを閉じる"></span>
 </button>
 
@@ -43,6 +43,10 @@
 	<p>© ONE POINT</p>
 </footer>
 
-
+<script>
+	function myFunc() {
+		document.querySelector('.page').classList.toggle('open');
+	}
+</script>
 </body>
 </html>
