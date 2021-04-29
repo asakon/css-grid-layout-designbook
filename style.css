@@ -17,7 +17,7 @@ body	{margin: 0;
 
 .page-nav,
 .page-btn-close {
-	display: none;
+	/*display: none;*/
 }
 
 /* グリッド */
@@ -48,6 +48,23 @@ body	{margin: 0;
 .page-nav {
 	grid-column: 1;
 	grid-row: 2;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.page-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.page-nav a {
+	display: block;
+	margin: 30px;
+	border-bottom: solid 1px #aaa;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
 }
 
 /* ボタン */
