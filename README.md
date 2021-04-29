@@ -25,6 +25,11 @@ https://helpx.adobe.com/jp/dreamweaver/user-guide.html/jp/dreamweaver/using/css-
 
 > 出力ファイルのスタイル CSS 出力ファイルのスタイルを指定します。
 > 拡張 - CSS を拡張形式で出力します。プロパティとルールごとに 1 行を使用します。プロパティはルール内でインデントされますが、ルールがインデントされることはありません。
+ 
+## DreamweaverでCSSをコメントアウトする
+
+Dreamweaverでコメントアウトする方法 | Web技術Tips | ホームページ制作のDOE【横浜】 ～手を抜かず最大のパフォーマンス～
+https://www.doe.co.jp/hp-tips/dreamweaver/dreamweaver%E3%81%A7%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/
 
 
 
