@@ -27,3 +27,36 @@ body	{margin: 0;
 	grid-template-rows: auto 1fr auto;
 	min-height: 100vh;
 }
+
+/* ヘッダー */
+.page-head {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+/* メインコンテンツ */
+.page-main {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+/* ナビゲーション */
+.page-nav {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+/* ボタン */
+.page-btn,
+.page-btn-close {
+	grid-column: 1;
+	grid-row: 1;
+	justify-self: start;
+	align-self: center;
+}
+
+/* フッター */
+.page-foot {
+	grid-column: 1;
+	grid-row: 3;
+}
