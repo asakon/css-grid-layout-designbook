@@ -32,6 +32,9 @@ body	{margin: 0;
 .page-head {
 	grid-column: 1;
 	grid-row: 1;
+	padding: 15px 0;
+	background-color: #222;
+	text-align: center;
 }
 
 /* メインコンテンツ */
@@ -59,4 +62,9 @@ body	{margin: 0;
 .page-foot {
 	grid-column: 1;
 	grid-row: 3;
+	padding: 20px 0;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
 }
