@@ -41,7 +41,7 @@ body	{margin: 0;
 .page-main {
 	grid-column: 1;
 	grid-row: 2;
-	background-color: #ffe4b5;
+	background-color: #fff;
 }
 
 /* ナビゲーション */
@@ -108,4 +108,41 @@ body	{margin: 0;
 	color: #fff;
 	text-align: center;
 	font-size: 14px;
+}
+
+/* 1260px 以上 */
+@media (min-width: 1260px) {
+	.page {
+		grid-template-columns: 260px 1fr;
+	}
+	
+	/* メインコンテンツ */
+	.page-main {
+		grid-column: 2;
+		grid-row: 1 / -1;
+	}
+	
+	/* ヘッダー */
+	.page-head {
+		padding: 40px 0;
+	}
+	.page-head img {
+		width: 150px;
+	}
+	
+	/* ナビゲーション */
+	.page-nav {
+		display: block;
+		background-color: #222;
+	}
+	
+	/* ボタン */
+	.page-btn {
+		display: none;
+	}
+	
+	/* フッター */
+	.page-foot {
+		padding: 40px 0;
+	}
 }
