@@ -115,4 +115,34 @@ body	{margin: 0;
 	.page {
 		grid-template-columns: 260px 1fr;
 	}
+	
+	/* メインコンテンツ */
+	.page-main {
+		grid-column: 2;
+		grid-row: 1 / -1;
+	}
+	
+	/* ヘッダー */
+	.page-head {
+		padding: 40px 0;
+	}
+	.page-head img {
+		width: 150px;
+	}
+	
+	/* ナビゲーション */
+	.page-nav {
+		display: block;
+		background-color: #222;
+	}
+	
+	/* ボタン */
+	.page-btn {
+		display: none;
+	}
+	
+	/* フッター */
+	.page-foot {
+		padding: 40px 0;
+	}
 }
