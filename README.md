@@ -2,6 +2,10 @@
 『CSS グリッドレイアウト デザインブック』の内容の学習
 プラス、Dreamweaverの学習
 
+https://stoic-chandrasekhar-927f82.netlify.app
+
+でホスティング
+
 ## エビスコム[著]『CSSグリッドレイアウト　デザインブック（ISBN978-4-8399-6633-1）』のサポートページ
 https://book.mynavi.jp/supportsite/detail/9784839966331.html
 
